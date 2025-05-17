@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/E-Commerce-Website-MobileTech/static/css/main.cea54de4.css",
+    "main.js": "/E-Commerce-Website-MobileTech/static/js/main.f6cdb959.js",
+    "static/js/488.d9971b16.chunk.js": "/E-Commerce-Website-MobileTech/static/js/488.d9971b16.chunk.js",
+    "static/media/logo.svg": "/E-Commerce-Website-MobileTech/static/media/logo.eaf3f04566a75d0670f0b73411d9d0e8.svg",
+    "index.html": "/E-Commerce-Website-MobileTech/index.html",
+    "main.cea54de4.css.map": "/E-Commerce-Website-MobileTech/static/css/main.cea54de4.css.map",
+    "main.f6cdb959.js.map": "/E-Commerce-Website-MobileTech/static/js/main.f6cdb959.js.map",
+    "488.d9971b16.chunk.js.map": "/E-Commerce-Website-MobileTech/static/js/488.d9971b16.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cea54de4.css",
+    "static/js/main.f6cdb959.js"
+  ]
+}
