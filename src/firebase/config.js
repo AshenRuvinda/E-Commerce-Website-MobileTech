@@ -1,9 +1,8 @@
-// src/firebase.js
-
 import { initializeApp } from 'firebase/app';
 import { getAuth } from 'firebase/auth';
 import { getFirestore } from 'firebase/firestore';
 import { getAnalytics, isSupported } from 'firebase/analytics';
+import { getStorage } from 'firebase/storage'; // ✅ Add this line
 
 // Firebase config using environment variables
 const firebaseConfig = {
@@ -19,9 +18,10 @@ const firebaseConfig = {
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 
-// Initialize Firebase Auth and Firestore
+// Initialize Firebase services
 const auth = getAuth(app);
 const db = getFirestore(app);
+const storage = getStorage(app); // ✅ Initialize storage
 
 // Initialize analytics safely (only in supported environments)
 let analytics = null;
@@ -31,4 +31,4 @@ isSupported().then((supported) => {
   }
 });
 
-export { app, auth, db, analytics };
+export { app, auth, db, storage, analytics }; // ✅ Export storage
